@@ -10,7 +10,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^4.2.4"
   },
-  "homepage": "https://Mavis021.github.io/RISCY/riscy-web",
+  "homepage": "https://Mavis021.github.io/RISCY/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
