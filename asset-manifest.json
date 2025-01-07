@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/RISCY/riscy-web/static/css/main.3393050d.css",
-    "main.js": "/RISCY/riscy-web/static/js/main.c076ac79.js",
-    "static/js/488.9a037678.chunk.js": "/RISCY/riscy-web/static/js/488.9a037678.chunk.js",
-    "index.html": "/RISCY/riscy-web/index.html",
-    "main.3393050d.css.map": "/RISCY/riscy-web/static/css/main.3393050d.css.map",
-    "main.c076ac79.js.map": "/RISCY/riscy-web/static/js/main.c076ac79.js.map",
-    "488.9a037678.chunk.js.map": "/RISCY/riscy-web/static/js/488.9a037678.chunk.js.map"
+    "main.css": "/RISCY/static/css/main.3393050d.css",
+    "main.js": "/RISCY/static/js/main.dad60ea6.js",
+    "static/js/488.9a037678.chunk.js": "/RISCY/static/js/488.9a037678.chunk.js",
+    "index.html": "/RISCY/index.html",
+    "main.3393050d.css.map": "/RISCY/static/css/main.3393050d.css.map",
+    "main.dad60ea6.js.map": "/RISCY/static/js/main.dad60ea6.js.map",
+    "488.9a037678.chunk.js.map": "/RISCY/static/js/488.9a037678.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3393050d.css",
-    "static/js/main.c076ac79.js"
+    "static/js/main.dad60ea6.js"
   ]
 }
