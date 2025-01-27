@@ -114,17 +114,17 @@ const CompilerInterface = () => {
           
           <h3 className="text-xl font-semibold mb-3">Tokenizer</h3>
           <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-            <li>Character literal tokenization</li>
+            <li>✓ Character literal tokenization</li>
           </ul>
           
           <h3 className="text-xl font-semibold mb-3">Parser</h3>
           <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-            <li>Explicit type casts</li>
-            <li>Unions</li>
-            <li>Typedefs</li>
-            <li>Externs/Statics/Volatiles</li>
-            <li>Array/Struct initialization</li>
-            <li>Change declaration initializers to be an assignment</li>
+            <li>✓ Explicit type casts</li>
+            <li>✓ Unions</li>
+            <li>✓ Typedefs</li>
+            <li>✓ Externs/Statics/Volatiles</li>
+            <li>✓ Array/Struct initialization</li>
+            <li>✓ Change declaration initializers to be an assignment</li>
           </ul>
           
           <h3 className="text-xl font-semibold mb-3">Completed Features</h3>
