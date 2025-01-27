@@ -96,6 +96,71 @@ const CompilerInterface = () => {
 </section>
 
 
+        <section id="project-status" className="bg-white rounded shadow p-6">
+          <h2 className="text-2xl font-bold mb-4">Project Status & TODOs</h2>
+          
+          <h3 className="text-xl font-semibold mb-3">Specific Refactors</h3>
+          <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+            <li>Change arena to be dynamic in OS memory allocations instead of a fixed size table
+              <ul className="list-disc pl-6 mt-2 text-gray-600">
+                <li>Consider using a list implementation</li>
+              </ul>
+            </li>
+            <li>Restructure code to accommodate optimization pass</li>
+            <li>Evaluate optimization pass placement in pipeline and IR impact</li>
+            <li>✓ Implement arena to reduce memory leaks and simplify allocs/frees</li>
+            <li>✓ Improve type checking function implementation</li>
+          </ul>
+          
+          <h3 className="text-xl font-semibold mb-3">Tokenizer</h3>
+          <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+            <li>Character literal tokenization</li>
+          </ul>
+          
+          <h3 className="text-xl font-semibold mb-3">Parser</h3>
+          <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+            <li>Explicit type casts</li>
+            <li>Unions</li>
+            <li>Typedefs</li>
+            <li>Externs/Statics/Volatiles</li>
+            <li>Array/Struct initialization</li>
+            <li>Change declaration initializers to be an assignment</li>
+          </ul>
+          
+          <h3 className="text-xl font-semibold mb-3">Completed Features</h3>
+          <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+            <li>✓ Function parameters in symbols table</li>
+            <li>✓ Function parsing only in global scope</li>
+            <li>✓ Assignment operators (+=, -=) and binary expressions</li>
+            <li>✓ Control flow statements (break/continue/return)</li>
+            <li>✓ Arrays (indexing and declarations)</li>
+            <li>✓ Type checking</li>
+            <li>✓ Struct declarations</li>
+          </ul>
+          
+          <h3 className="text-xl font-semibold mb-3">IR / Middle-end</h3>
+          <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+            <li>Convert C datatypes to simpler form (tag + size like u32, i64) for simple conversions
+              <ul className="list-disc pl-6 mt-2 text-gray-600">
+                <li>Code generator will work with these exclusively</li>
+              </ul>
+            </li>
+            <li>Transform defined structs and complex data types into lower level IR
+              <ul className="list-disc pl-6 mt-2 text-gray-600">
+                <li>Eliminate need for Statement block info in code generation</li>
+              </ul>
+            </li>
+          </ul>
+          
+          <h3 className="text-xl font-semibold mb-3">Code Generator</h3>
+          <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+            <li>Full support for register allocation</li>
+            <li>Call return primitives implementation</li>
+            <li>Comprehensive function call support</li>
+          </ul>
+        </section>
+
+
         <section id="developers" className="bg-white rounded shadow p-6">
           <h2 className="text-2xl font-bold mb-4">Development Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
